@@ -1,6 +1,8 @@
 # Customizing-cjoint-Plots
 A quick and easy guide to modifying and customizing the look of your AMCE plot outputs from `cjoint`
 
+![before and after](side-by-side.png)
+
 ## Load Libraries
 
 ```{r} 
