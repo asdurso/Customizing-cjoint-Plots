@@ -1,7 +1,7 @@
 # Customizing-cjoint-Plots
-A quick and easy guide to modifying and customizing the look of your AMCE plot outputs from `cjoint`
+A quick and easy guide to modifying and customizing the look of your AMCE plot outputs from `cjoint`. The figure below shows the comparison between the default plots produced with `cjoint` relative to the customized plots using the code provided, below. 
 
-![before and after](side-by-side.png)
+![before and after](before-and-after.png)
 
 ## Load Libraries
 
@@ -201,7 +201,7 @@ samp_dat %>%
 
 ### Interactions
 
-We can do the same modifications when we are interested in conditional AMCEs. In this example, we are graphing the likelihood of being awarded a greencard conditional on both religion and country of origin. 
+We can do the same modifications when we are interested in conditional AMCEs. In this example, we are graphing the likelihood of being awarded a green card conditional on both religion and country of origin. 
 
 ```
 samp_dat %>%
