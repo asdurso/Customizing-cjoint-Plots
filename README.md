@@ -123,7 +123,9 @@ samp_dat <-
 ### Main Effects Graph
 Here, I include some code that is useful when modifying or customizing the plot to fit your needs. In this example, I have removed the grid lines in the plot, the background is white, and the labels are changed such that the category/variable is in **bold**, the reference/base group is in *italics*, and the other groups are in plain text. 
 
-The code is commented to indicate which codes correspond with plot modifications. 
+The code is commented to indicate which codes correspond with plot modifications.
+
+In this code, I have selected colors from the Viridis Palette. This ![palette generator](https://waldyrious.net/viridis-palette-generator/) is helpful!
 
 ```{r}
 samp_dat %>%
@@ -134,6 +136,8 @@ samp_dat %>%
   ) %>% 
   ## Plot the AMCE as normal
   plot(
+      #add colors from viridis pallet; 5 colors for 5 attributes
+    col = c("#DCE319", "#55C667", "#1F968B", "#39568C", "#440154"),
     ## X-Axis label
     xlab = "Likelihood of giving Green Card",
     ## Changing the plot theme
@@ -212,6 +216,8 @@ samp_dat %>%
     respondent.varying = "Religion"
   ) %>%
   plot(
+      ## add one color this time; color from viridis
+    col = c("#440154"),
     plot.display = "interaction",
     xlab = "Likelihood of giving Green Card",
     plot.theme = theme(
