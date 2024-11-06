@@ -125,7 +125,7 @@ Here, I include some code that is useful when modifying or customizing the plot 
 
 The code is commented to indicate which codes correspond with plot modifications.
 
-In this code, I have selected colors from the Viridis Palette. This ![palette generator](https://waldyrious.net/viridis-palette-generator/) is helpful!
+In this code, I have selected colors from the Viridis Palette. This [palette generator](https://waldyrious.net/viridis-palette-generator/) is helpful!
 
 ```{r}
 samp_dat %>%
